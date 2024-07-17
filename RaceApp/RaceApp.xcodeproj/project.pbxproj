@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C928A5292C449FA100DFA833 /* RaceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A5282C449FA100DFA833 /* RaceAppApp.swift */; };
+		C928A52B2C449FA100DFA833 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A52A2C449FA100DFA833 /* ContentView.swift */; };
+		C928A52D2C449FA200DFA833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C928A52C2C449FA200DFA833 /* Assets.xcassets */; };
+		C928A5302C449FA200DFA833 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C928A52F2C449FA200DFA833 /* Preview Assets.xcassets */; };
+		C928A5542C449FC600DFA833 /* RaceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A5532C449FC600DFA833 /* RaceResponse.swift */; };
+		C928A5562C449FF200DFA833 /* RaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A5552C449FF200DFA833 /* RaceData.swift */; };
+		C928A5582C44A01D00DFA833 /* RaceSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A5572C44A01D00DFA833 /* RaceSummary.swift */; };
+		C928A55B2C44A04A00DFA833 /* APIManageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A55A2C44A04A00DFA833 /* APIManageable.swift */; };
+		C928A55D2C44A18200DFA833 /* AdvertisedStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A55C2C44A18200DFA833 /* AdvertisedStart.swift */; };
+		C928A5612C44CA4900DFA833 /* RaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A5602C44CA4900DFA833 /* RaceService.swift */; };
+		C928A5632C44D8D600DFA833 /* RaceListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A5622C44D8D600DFA833 /* RaceListRowView.swift */; };
+		C928A5662C45105B00DFA833 /* RaceSummaryDisplayModelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A5652C45105B00DFA833 /* RaceSummaryDisplayModelBuilder.swift */; };
+		C928A5682C45118800DFA833 /* RaceForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A5672C45118800DFA833 /* RaceForm.swift */; };
+		C928A56A2C466B2200DFA833 /* RaceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A5692C466B2200DFA833 /* RaceListViewModel.swift */; };
+		C928A56F2C4740FB00DFA833 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A56E2C4740FB00DFA833 /* CheckBoxView.swift */; };
+		C928A5712C47439800DFA833 /* RaceFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A5702C47439800DFA833 /* RaceFilterView.swift */; };
+		C928A5732C474D6E00DFA833 /* RaceFilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A5722C474D6E00DFA833 /* RaceFilterModel.swift */; };
+		C928A5752C4770BD00DFA833 /* CategoryTypeImageNameProvidable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A5742C4770BD00DFA833 /* CategoryTypeImageNameProvidable.swift */; };
+		C928A5772C4770F300DFA833 /* RaceListRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A5762C4770F300DFA833 /* RaceListRowModel.swift */; };
+		C928A57A2C47811100DFA833 /* CountDownTextFormattable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A5792C47811100DFA833 /* CountDownTextFormattable.swift */; };
+		C928A57D2C47836F00DFA833 /* CountDownTextFormattableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C928A57C2C47836F00DFA833 /* CountDownTextFormattableTest.swift */; };
+		C9DA24472C4786010017716E /* CategoryTypeImageNameProvidableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA24462C4786010017716E /* CategoryTypeImageNameProvidableTest.swift */; };
+		C9DA24492C4787670017716E /* RaceListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA24482C4787670017716E /* RaceListViewModelTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C928A5362C449FA200DFA833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C928A51D2C449FA100DFA833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C928A5242C449FA100DFA833;
+			remoteInfo = RaceApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C928A5252C449FA100DFA833 /* RaceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C928A5282C449FA100DFA833 /* RaceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceAppApp.swift; sourceTree = "<group>"; };
+		C928A52A2C449FA100DFA833 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C928A52C2C449FA200DFA833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C928A52F2C449FA200DFA833 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C928A5352C449FA200DFA833 /* RaceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C928A5532C449FC600DFA833 /* RaceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceResponse.swift; sourceTree = "<group>"; };
+		C928A5552C449FF200DFA833 /* RaceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceData.swift; sourceTree = "<group>"; };
+		C928A5572C44A01D00DFA833 /* RaceSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceSummary.swift; sourceTree = "<group>"; };
+		C928A55A2C44A04A00DFA833 /* APIManageable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManageable.swift; sourceTree = "<group>"; };
+		C928A55C2C44A18200DFA833 /* AdvertisedStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisedStart.swift; sourceTree = "<group>"; };
+		C928A5602C44CA4900DFA833 /* RaceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceService.swift; sourceTree = "<group>"; };
+		C928A5622C44D8D600DFA833 /* RaceListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListRowView.swift; sourceTree = "<group>"; };
+		C928A5652C45105B00DFA833 /* RaceSummaryDisplayModelBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceSummaryDisplayModelBuilder.swift; sourceTree = "<group>"; };
+		C928A5672C45118800DFA833 /* RaceForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceForm.swift; sourceTree = "<group>"; };
+		C928A5692C466B2200DFA833 /* RaceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListViewModel.swift; sourceTree = "<group>"; };
+		C928A56E2C4740FB00DFA833 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		C928A5702C47439800DFA833 /* RaceFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceFilterView.swift; sourceTree = "<group>"; };
+		C928A5722C474D6E00DFA833 /* RaceFilterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceFilterModel.swift; sourceTree = "<group>"; };
+		C928A5742C4770BD00DFA833 /* CategoryTypeImageNameProvidable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTypeImageNameProvidable.swift; sourceTree = "<group>"; };
+		C928A5762C4770F300DFA833 /* RaceListRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListRowModel.swift; sourceTree = "<group>"; };
+		C928A5792C47811100DFA833 /* CountDownTextFormattable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownTextFormattable.swift; sourceTree = "<group>"; };
+		C928A57B2C47836E00DFA833 /* RaceAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RaceAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		C928A57C2C47836F00DFA833 /* CountDownTextFormattableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownTextFormattableTest.swift; sourceTree = "<group>"; };
+		C9DA24462C4786010017716E /* CategoryTypeImageNameProvidableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTypeImageNameProvidableTest.swift; sourceTree = "<group>"; };
+		C9DA24482C4787670017716E /* RaceListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceListViewModelTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C928A5222C449FA100DFA833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C928A5322C449FA200DFA833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C928A51C2C449FA100DFA833 = {
+			isa = PBXGroup;
+			children = (
+				C928A5782C4780D700DFA833 /* Utilities */,
+				C928A5592C44A03000DFA833 /* API */,
+				C928A5522C449FAE00DFA833 /* Models */,
+				C928A5272C449FA100DFA833 /* RaceApp */,
+				C928A5382C449FA200DFA833 /* RaceAppTests */,
+				C928A5262C449FA100DFA833 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C928A5262C449FA100DFA833 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C928A5252C449FA100DFA833 /* RaceApp.app */,
+				C928A5352C449FA200DFA833 /* RaceAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C928A5272C449FA100DFA833 /* RaceApp */ = {
+			isa = PBXGroup;
+			children = (
+				C9DA244A2C4789110017716E /* RaceViews */,
+				C928A56B2C47407500DFA833 /* CheckBoxView */,
+				C928A5642C45102700DFA833 /* DisplayModel */,
+				C928A5282C449FA100DFA833 /* RaceAppApp.swift */,
+				C928A52A2C449FA100DFA833 /* ContentView.swift */,
+				C928A52C2C449FA200DFA833 /* Assets.xcassets */,
+				C928A52E2C449FA200DFA833 /* Preview Content */,
+			);
+			path = RaceApp;
+			sourceTree = "<group>";
+		};
+		C928A52E2C449FA200DFA833 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C928A52F2C449FA200DFA833 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C928A5382C449FA200DFA833 /* RaceAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C928A57C2C47836F00DFA833 /* CountDownTextFormattableTest.swift */,
+				C928A57B2C47836E00DFA833 /* RaceAppTests-Bridging-Header.h */,
+				C9DA24462C4786010017716E /* CategoryTypeImageNameProvidableTest.swift */,
+				C9DA24482C4787670017716E /* RaceListViewModelTest.swift */,
+			);
+			path = RaceAppTests;
+			sourceTree = "<group>";
+		};
+		C928A5522C449FAE00DFA833 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C928A5532C449FC600DFA833 /* RaceResponse.swift */,
+				C928A5552C449FF200DFA833 /* RaceData.swift */,
+				C928A5572C44A01D00DFA833 /* RaceSummary.swift */,
+				C928A55C2C44A18200DFA833 /* AdvertisedStart.swift */,
+				C928A5672C45118800DFA833 /* RaceForm.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C928A5592C44A03000DFA833 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C928A55A2C44A04A00DFA833 /* APIManageable.swift */,
+				C928A5602C44CA4900DFA833 /* RaceService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C928A5642C45102700DFA833 /* DisplayModel */ = {
+			isa = PBXGroup;
+			children = (
+				C928A5652C45105B00DFA833 /* RaceSummaryDisplayModelBuilder.swift */,
+				C928A5692C466B2200DFA833 /* RaceListViewModel.swift */,
+				C928A5722C474D6E00DFA833 /* RaceFilterModel.swift */,
+				C928A5762C4770F300DFA833 /* RaceListRowModel.swift */,
+			);
+			path = DisplayModel;
+			sourceTree = "<group>";
+		};
+		C928A56B2C47407500DFA833 /* CheckBoxView */ = {
+			isa = PBXGroup;
+			children = (
+				C928A56E2C4740FB00DFA833 /* CheckBoxView.swift */,
+			);
+			path = CheckBoxView;
+			sourceTree = "<group>";
+		};
+		C928A5782C4780D700DFA833 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C928A5742C4770BD00DFA833 /* CategoryTypeImageNameProvidable.swift */,
+				C928A5792C47811100DFA833 /* CountDownTextFormattable.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C9DA244A2C4789110017716E /* RaceViews */ = {
+			isa = PBXGroup;
+			children = (
+				C928A5702C47439800DFA833 /* RaceFilterView.swift */,
+				C928A5622C44D8D600DFA833 /* RaceListRowView.swift */,
+			);
+			path = RaceViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C928A5242C449FA100DFA833 /* RaceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C928A5492C449FA200DFA833 /* Build configuration list for PBXNativeTarget "RaceApp" */;
+			buildPhases = (
+				C928A5212C449FA100DFA833 /* Sources */,
+				C928A5222C449FA100DFA833 /* Frameworks */,
+				C928A5232C449FA100DFA833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaceApp;
+			productName = RaceApp;
+			productReference = C928A5252C449FA100DFA833 /* RaceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C928A5342C449FA200DFA833 /* RaceAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C928A54C2C449FA200DFA833 /* Build configuration list for PBXNativeTarget "RaceAppTests" */;
+			buildPhases = (
+				C928A5312C449FA200DFA833 /* Sources */,
+				C928A5322C449FA200DFA833 /* Frameworks */,
+				C928A5332C449FA200DFA833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C928A5372C449FA200DFA833 /* PBXTargetDependency */,
+			);
+			name = RaceAppTests;
+			productName = RaceAppTests;
+			productReference = C928A5352C449FA200DFA833 /* RaceAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C928A51D2C449FA100DFA833 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C928A5242C449FA100DFA833 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C928A5342C449FA200DFA833 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+						TestTargetID = C928A5242C449FA100DFA833;
+					};
+				};
+			};
+			buildConfigurationList = C928A5202C449FA100DFA833 /* Build configuration list for PBXProject "RaceApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C928A51C2C449FA100DFA833;
+			productRefGroup = C928A5262C449FA100DFA833 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C928A5242C449FA100DFA833 /* RaceApp */,
+				C928A5342C449FA200DFA833 /* RaceAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C928A5232C449FA100DFA833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C928A5302C449FA200DFA833 /* Preview Assets.xcassets in Resources */,
+				C928A52D2C449FA200DFA833 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C928A5332C449FA200DFA833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C928A5212C449FA100DFA833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C928A5632C44D8D600DFA833 /* RaceListRowView.swift in Sources */,
+				C928A5612C44CA4900DFA833 /* RaceService.swift in Sources */,
+				C928A5662C45105B00DFA833 /* RaceSummaryDisplayModelBuilder.swift in Sources */,
+				C928A52B2C449FA100DFA833 /* ContentView.swift in Sources */,
+				C928A5772C4770F300DFA833 /* RaceListRowModel.swift in Sources */,
+				C928A5582C44A01D00DFA833 /* RaceSummary.swift in Sources */,
+				C928A57A2C47811100DFA833 /* CountDownTextFormattable.swift in Sources */,
+				C928A5542C449FC600DFA833 /* RaceResponse.swift in Sources */,
+				C928A5562C449FF200DFA833 /* RaceData.swift in Sources */,
+				C928A55B2C44A04A00DFA833 /* APIManageable.swift in Sources */,
+				C928A5732C474D6E00DFA833 /* RaceFilterModel.swift in Sources */,
+				C928A55D2C44A18200DFA833 /* AdvertisedStart.swift in Sources */,
+				C928A5712C47439800DFA833 /* RaceFilterView.swift in Sources */,
+				C928A56F2C4740FB00DFA833 /* CheckBoxView.swift in Sources */,
+				C928A5752C4770BD00DFA833 /* CategoryTypeImageNameProvidable.swift in Sources */,
+				C928A56A2C466B2200DFA833 /* RaceListViewModel.swift in Sources */,
+				C928A5682C45118800DFA833 /* RaceForm.swift in Sources */,
+				C928A5292C449FA100DFA833 /* RaceAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C928A5312C449FA200DFA833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DA24472C4786010017716E /* CategoryTypeImageNameProvidableTest.swift in Sources */,
+				C928A57D2C47836F00DFA833 /* CountDownTextFormattableTest.swift in Sources */,
+				C9DA24492C4787670017716E /* RaceListViewModelTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C928A5372C449FA200DFA833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C928A5242C449FA100DFA833 /* RaceApp */;
+			targetProxy = C928A5362C449FA200DFA833 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C928A5472C449FA200DFA833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C928A5482C449FA200DFA833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C928A54A2C449FA200DFA833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RaceApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechnicalTask.RaceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C928A54B2C449FA200DFA833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RaceApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechnicalTask.RaceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C928A54D2C449FA200DFA833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechnicalTask.RaceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "RaceAppTests/RaceAppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaceApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RaceApp";
+			};
+			name = Debug;
+		};
+		C928A54E2C449FA200DFA833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechnicalTask.RaceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "RaceAppTests/RaceAppTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaceApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RaceApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C928A5202C449FA100DFA833 /* Build configuration list for PBXProject "RaceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C928A5472C449FA200DFA833 /* Debug */,
+				C928A5482C449FA200DFA833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C928A5492C449FA200DFA833 /* Build configuration list for PBXNativeTarget "RaceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C928A54A2C449FA200DFA833 /* Debug */,
+				C928A54B2C449FA200DFA833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C928A54C2C449FA200DFA833 /* Build configuration list for PBXNativeTarget "RaceAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C928A54D2C449FA200DFA833 /* Debug */,
+				C928A54E2C449FA200DFA833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C928A51D2C449FA100DFA833 /* Project object */;
+}
